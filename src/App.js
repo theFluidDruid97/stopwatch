@@ -19,6 +19,7 @@ function App() {
   const handleReset = () => {
     setStart(false);
     setTime(0);
+    setLaps([]);
   };
 
   return (
@@ -63,9 +64,6 @@ function App() {
               }
             >
               Lap
-            </button>
-            <button className="stack-btn" onClick={() => setLaps([])}>
-              Reset Laps
             </button>
           </div>
         </div>
